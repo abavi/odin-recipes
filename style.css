@@ -31,4 +31,13 @@ ul {
   font-size: 24px;
 }
 
+.recipe:hover {
+  font-size: 27px;
+}
+
+.line {
+  border: 5px solid rgb(172, 82, 82);
+  border-radius: 5px;
+}
+
 
