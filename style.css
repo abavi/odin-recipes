@@ -1,0 +1,34 @@
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style-position: inside;
+  list-style-type: square;
+}
+
+.card {
+  margin:auto;
+  padding: 25px;
+  text-align: center;
+  width: 50vh;
+  height: 90vh;
+  background-color: antiquewhite;
+  border: 6px solid black; 
+}
+
+.title {
+  font-size: 44px;  
+}
+
+.recipes-list {
+  padding: 30px;
+  text-align: center;
+}
+
+.recipe {
+  font-size: 24px;
+}
+
+
