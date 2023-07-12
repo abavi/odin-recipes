@@ -8,6 +8,15 @@ ul {
   list-style-type: square;
 }
 
+ol {
+  list-style-position: inside;
+}
+
+body {
+  padding:10px;
+  background-color: rgb(255, 255, 255);
+}
+
 .card {
   margin:auto;
   padding: 25px;
@@ -16,6 +25,14 @@ ul {
   height: 90vh;
   background-color: antiquewhite;
   border: 6px solid black; 
+  border-radius: 10px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.card::-webkit-scrollbar {
+  width: 5px;
+  background-color: rgb(172, 82, 82);
 }
 
 .title {
@@ -31,6 +48,11 @@ ul {
   font-size: 24px;
 }
 
+.photo {
+  width: auto;
+  height: 30vh;
+}
+
 .recipe:hover {
   font-size: 27px;
 }
@@ -40,4 +62,7 @@ ul {
   border-radius: 5px;
 }
 
+.back {
+  color: red;
 
+}
